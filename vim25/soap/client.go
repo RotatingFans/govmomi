@@ -299,7 +299,7 @@ func (c *Client) RoundTrip(ctx context.Context, reqBody, resBody HasFault) error
 	default:
 		return errors.New(res.Status)
 	}
-	spew.Dump(res.Body)
+	//spew.Dump(res.Body)
 	dec := xml.NewDecoder(res.Body)
 	dec.TypeFunc = types.TypeFunc()
 	err = dec.Decode(&resEnv)
