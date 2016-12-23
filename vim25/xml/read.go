@@ -12,6 +12,7 @@ import (
 	"reflect"
 	"strconv"
 	"strings"
+		"github.com/davecgh/go-spew/spew" 
 )
 
 // BUG(rsc): Mapping between XML elements and data structures is inherently flawed:
@@ -311,7 +312,7 @@ func (p *Decoder) typeForElement(val reflect.Value, start *StartElement) reflect
 
 // Unmarshal a single XML element into val.
 func (p *Decoder) unmarshal(val reflect.Value, start *StartElement) error {
-	fmt.Println(val)
+	spew.Dump(val)
 	// Find start element if we need it.
 	if start == nil {
 		for {
