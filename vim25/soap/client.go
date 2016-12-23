@@ -31,7 +31,7 @@ import (
 	"regexp"
 	"strings"
 	"time"
-	"github.com/davecgh/go-spew/spew" 
+	//"github.com/davecgh/go-spew/spew" 
 	"github.com/RotatingFans/govmomi/vim25/progress"
 	"github.com/RotatingFans/govmomi/vim25/types"
 	"github.com/RotatingFans/govmomi/vim25/xml"
