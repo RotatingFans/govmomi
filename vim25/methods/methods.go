@@ -8081,7 +8081,7 @@ func QueryPerf(ctx context.Context, r soap.RoundTripper, req *types.QueryPerf) (
 		return nil, err
 	}
 	spew.Dump(resBody)
-	fmt.PrintLn()
+	fmt.Println()
 	spew.Dump(resBody.Res)
 	
 	return resBody.Res, nil
