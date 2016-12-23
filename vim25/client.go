@@ -19,9 +19,9 @@ package vim25
 import (
 	"encoding/json"
 
-	"github.com/RoatingFans/govmomi/vim25/methods"
-	"github.com/RoatingFans/govmomi/vim25/soap"
-	"github.com/RoatingFans/govmomi/vim25/types"
+	"github.com/RotatingFans/govmomi/vim25/methods"
+	"github.com/RotatingFans/govmomi/vim25/soap"
+	"github.com/RotatingFans/govmomi/vim25/types"
 	"golang.org/x/net/context"
 )
 
