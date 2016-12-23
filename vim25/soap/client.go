@@ -299,11 +299,10 @@ func (c *Client) RoundTrip(ctx context.Context, reqBody, resBody HasFault) error
 	default:
 		return errors.New(res.Status)
 	}
-	
+	fmt.Println(res.Body)
 	dec := xml.NewDecoder(res.Body)
 	dec.TypeFunc = types.TypeFunc()
 	err = dec.Decode(&resEnv)
-	err = res.Body
 	if err != nil {
 		return err
 	}
