@@ -20,6 +20,8 @@ import (
 	"github.com/RotatingFans/govmomi/vim25/soap"
 	"github.com/RotatingFans/govmomi/vim25/types"
 	"golang.org/x/net/context"
+	"fmt"
+	"github.com/davecgh/go-spew/spew"
 )
 
 type AbdicateDomOwnershipBody struct {
@@ -8078,7 +8080,10 @@ func QueryPerf(ctx context.Context, r soap.RoundTripper, req *types.QueryPerf) (
 	if err := r.RoundTrip(ctx, &reqBody, &resBody); err != nil {
 		return nil, err
 	}
-
+	spew.Dump(resBody)
+	fmt.printLn()
+	spew.Dump(resBody.Res)
+	
 	return resBody.Res, nil
 }
 
