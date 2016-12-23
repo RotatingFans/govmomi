@@ -311,6 +311,7 @@ func (p *Decoder) typeForElement(val reflect.Value, start *StartElement) reflect
 
 // Unmarshal a single XML element into val.
 func (p *Decoder) unmarshal(val reflect.Value, start *StartElement) error {
+	fmt.Println(val)
 	// Find start element if we need it.
 	if start == nil {
 		for {
