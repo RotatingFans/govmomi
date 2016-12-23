@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/vmware/govmomi/test"
-	"github.com/vmware/govmomi/vim25/mo"
+	"github.com/RotatingFans/govmomi/test"
+	"github.com/RotatingFans/govmomi/vim25/mo"
 	"golang.org/x/net/context"
 )
 

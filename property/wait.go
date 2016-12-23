@@ -17,7 +17,7 @@ limitations under the License.
 package property
 
 import (
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/RotatingFans/govmomi/vim25/types"
 	"golang.org/x/net/context"
 )
 

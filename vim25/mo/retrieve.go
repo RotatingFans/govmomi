@@ -19,9 +19,9 @@ package mo
 import (
 	"reflect"
 
-	"github.com/vmware/govmomi/vim25/methods"
-	"github.com/vmware/govmomi/vim25/soap"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/RotatingFans/govmomi/vim25/methods"
+	"github.com/RotatingFans/govmomi/vim25/soap"
+	"github.com/RotatingFans/govmomi/vim25/types"
 	"golang.org/x/net/context"
 )
 
@@ -30,7 +30,7 @@ func ignoreMissingProperty(ref types.ManagedObjectReference, p types.MissingProp
 	case "VirtualMachine":
 		switch p.Path {
 		case "environmentBrowser":
-			// See https://github.com/vmware/govmomi/pull/242
+			// See https://github.com/RotatingFans/govmomi/pull/242
 			return true
 		case "alarmActionsEnabled":
 			// Seen with vApp child VM

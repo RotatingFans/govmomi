@@ -27,7 +27,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/vmware/govmomi/vim25/progress"
+	"github.com/RotatingFans/govmomi/vim25/progress"
 
 	"github.com/davecgh/go-spew/spew"
 )

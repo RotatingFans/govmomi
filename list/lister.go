@@ -21,10 +21,10 @@ import (
 	"path"
 	"reflect"
 
-	"github.com/vmware/govmomi/property"
-	"github.com/vmware/govmomi/vim25/mo"
-	"github.com/vmware/govmomi/vim25/soap"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/RotatingFans/govmomi/property"
+	"github.com/RotatingFans/govmomi/vim25/mo"
+	"github.com/RotatingFans/govmomi/vim25/soap"
+	"github.com/RotatingFans/govmomi/vim25/types"
 	"golang.org/x/net/context"
 )
 

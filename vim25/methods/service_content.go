@@ -19,8 +19,8 @@ package methods
 import (
 	"time"
 
-	"github.com/vmware/govmomi/vim25/soap"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/RotatingFans/govmomi/vim25/soap"
+	"github.com/RotatingFans/govmomi/vim25/types"
 	"golang.org/x/net/context"
 )
 

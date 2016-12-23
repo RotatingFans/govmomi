@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/vmware/govmomi/find"
-	"github.com/vmware/govmomi/object"
-	"github.com/vmware/govmomi/vim25"
+	"github.com/RotatingFans/govmomi/find"
+	"github.com/RotatingFans/govmomi/object"
+	"github.com/RotatingFans/govmomi/vim25"
 	"golang.org/x/net/context"
 )
 

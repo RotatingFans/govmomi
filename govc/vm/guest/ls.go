@@ -22,7 +22,7 @@ import (
 	"os"
 	"text/tabwriter"
 
-	"github.com/vmware/govmomi/govc/cli"
+	"github.com/RotatingFans/govmomi/govc/cli"
 	"golang.org/x/net/context"
 )
 

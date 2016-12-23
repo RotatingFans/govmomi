@@ -21,9 +21,9 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/vmware/govmomi/property"
-	"github.com/vmware/govmomi/view"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/RotatingFans/govmomi/property"
+	"github.com/RotatingFans/govmomi/view"
+	"github.com/RotatingFans/govmomi/vim25/types"
 )
 
 func multipleObjectEvents(ctx context.Context, m Manager, objects []types.ManagedObjectReference, pageSize int32, tail bool, force bool, prop []string, f func([]types.BaseEvent) error) error {

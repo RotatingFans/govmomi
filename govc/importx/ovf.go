@@ -23,14 +23,14 @@ import (
 	"path"
 	"strings"
 
-	"github.com/vmware/govmomi/govc/cli"
-	"github.com/vmware/govmomi/govc/flags"
-	"github.com/vmware/govmomi/object"
-	"github.com/vmware/govmomi/ovf"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/progress"
-	"github.com/vmware/govmomi/vim25/soap"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/RotatingFans/govmomi/govc/cli"
+	"github.com/RotatingFans/govmomi/govc/flags"
+	"github.com/RotatingFans/govmomi/object"
+	"github.com/RotatingFans/govmomi/ovf"
+	"github.com/RotatingFans/govmomi/vim25"
+	"github.com/RotatingFans/govmomi/vim25/progress"
+	"github.com/RotatingFans/govmomi/vim25/soap"
+	"github.com/RotatingFans/govmomi/vim25/types"
 	"golang.org/x/net/context"
 )
 

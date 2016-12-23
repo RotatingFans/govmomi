@@ -28,7 +28,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/vmware/govmomi/ovf"
+	"github.com/RotatingFans/govmomi/ovf"
 )
 
 // ArchiveFlag doesn't register any flags;

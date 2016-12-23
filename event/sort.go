@@ -19,7 +19,7 @@ package event
 import (
 	"sort"
 
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/RotatingFans/govmomi/vim25/types"
 )
 
 // Sort events in accending order base on Key

@@ -20,8 +20,8 @@ import (
 	"errors"
 	"flag"
 
-	"github.com/vmware/govmomi/govc/cli"
-	"github.com/vmware/govmomi/govc/flags"
+	"github.com/RotatingFans/govmomi/govc/cli"
+	"github.com/RotatingFans/govmomi/govc/flags"
 	"golang.org/x/net/context"
 )
 

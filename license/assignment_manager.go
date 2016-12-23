@@ -17,9 +17,9 @@ limitations under the License.
 package license
 
 import (
-	"github.com/vmware/govmomi/object"
-	"github.com/vmware/govmomi/vim25/methods"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/RotatingFans/govmomi/object"
+	"github.com/RotatingFans/govmomi/vim25/methods"
+	"github.com/RotatingFans/govmomi/vim25/types"
 	"golang.org/x/net/context"
 )
 

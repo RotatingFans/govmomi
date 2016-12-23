@@ -20,9 +20,9 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/vmware/govmomi/vim25/soap"
-	"github.com/vmware/govmomi/vim25/types"
-	"github.com/vmware/govmomi/vim25/xml"
+	"github.com/RotatingFans/govmomi/vim25/soap"
+	"github.com/RotatingFans/govmomi/vim25/types"
+	"github.com/RotatingFans/govmomi/vim25/xml"
 )
 
 var invalidLoginFault = `

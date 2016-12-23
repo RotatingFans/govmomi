@@ -22,7 +22,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/vmware/govmomi/govc/cli"
+	"github.com/RotatingFans/govmomi/govc/cli"
 )
 
 func TestMain(t *testing.T) {

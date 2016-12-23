@@ -22,8 +22,8 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/vmware/govmomi/govc/flags"
-	"github.com/vmware/govmomi/object"
+	"github.com/RotatingFans/govmomi/govc/flags"
+	"github.com/RotatingFans/govmomi/object"
 )
 
 type FolderFlag struct {

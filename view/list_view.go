@@ -17,9 +17,9 @@ limitations under the License.
 package view
 
 import (
-	"github.com/vmware/govmomi/object"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/RotatingFans/govmomi/object"
+	"github.com/RotatingFans/govmomi/vim25"
+	"github.com/RotatingFans/govmomi/vim25/types"
 )
 
 type ListView struct {

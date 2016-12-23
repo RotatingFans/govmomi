@@ -17,9 +17,9 @@ limitations under the License.
 package task
 
 import (
-	"github.com/vmware/govmomi/property"
-	"github.com/vmware/govmomi/vim25/progress"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/RotatingFans/govmomi/property"
+	"github.com/RotatingFans/govmomi/vim25/progress"
+	"github.com/RotatingFans/govmomi/vim25/types"
 	"golang.org/x/net/context"
 )
 

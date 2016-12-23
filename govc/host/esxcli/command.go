@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/RotatingFans/govmomi/vim25/types"
 )
 
 type Command struct {

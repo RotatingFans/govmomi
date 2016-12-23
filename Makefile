@@ -21,4 +21,4 @@ test: vendor
 	go test -v $(TEST_OPTS) ./...
 
 install: vendor
-	go install github.com/vmware/govmomi/govc
+	go install github.com/RotatingFans/govmomi/govc

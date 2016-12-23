@@ -5,7 +5,7 @@ if git_status=$(git status --porcelain 2>/dev/null) && [ -n "${git_status}" ]; t
   git_version="${git_version}-dirty"
 fi
 
-ldflags="-X github.com/vmware/govmomi/govc/version.gitVersion=${git_version}"
+ldflags="-X github.com/RotatingFans/govmomi/govc/version.gitVersion=${git_version}"
 
 BUILD_OS=${BUILD_OS:-darwin linux windows freebsd}
 BUILD_ARCH=${BUILD_ARCH:-386 amd64}
@@ -26,7 +26,7 @@ for os in ${BUILD_OS}; do
       -pkgdir="./_pkg" \
       -compiler='gc' \
       -ldflags="${ldflags}" \
-      github.com/vmware/govmomi/govc
+      github.com/RotatingFans/govmomi/govc
     set +x
   done
 done

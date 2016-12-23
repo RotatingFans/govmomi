@@ -24,7 +24,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/vmware/govmomi/vim25/debug"
+	"github.com/RotatingFans/govmomi/vim25/debug"
 )
 
 // teeReader wraps io.TeeReader and patches through the Close() function.

@@ -19,9 +19,9 @@ package license
 import (
 	"flag"
 
-	"github.com/vmware/govmomi/govc/cli"
-	"github.com/vmware/govmomi/govc/flags"
-	"github.com/vmware/govmomi/license"
+	"github.com/RotatingFans/govmomi/govc/cli"
+	"github.com/RotatingFans/govmomi/govc/flags"
+	"github.com/RotatingFans/govmomi/license"
 	"golang.org/x/net/context"
 )
 

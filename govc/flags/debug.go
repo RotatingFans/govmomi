@@ -26,7 +26,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/vmware/govmomi/vim25/debug"
+	"github.com/RotatingFans/govmomi/vim25/debug"
 )
 
 type DebugFlag struct {

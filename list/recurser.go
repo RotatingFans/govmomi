@@ -20,7 +20,7 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/vmware/govmomi/property"
+	"github.com/RotatingFans/govmomi/property"
 	"golang.org/x/net/context"
 )
 

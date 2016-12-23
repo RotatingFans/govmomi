@@ -20,7 +20,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/RotatingFans/govmomi/vim25/types"
 )
 
 func TestSystemSettingsAdvancedSetCommand(t *testing.T) {

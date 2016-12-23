@@ -4,7 +4,7 @@ govc is a vSphere CLI built on top of govmomi.
 
 ## Installation
 
-You can find prebuilt govc binaries on the [releases page](https://github.com/vmware/govmomi/releases).
+You can find prebuilt govc binaries on the [releases page](https://github.com/RotatingFans/govmomi/releases).
 
 Download and install a binary locally like this:
 
@@ -18,7 +18,7 @@ chmod +x /usr/local/bin/govc
 You can install the latest govc version from source if you have the Go toolchain installed.
 
 ```sh
-go get github.com/vmware/govmomi/govc
+go get github.com/RotatingFans/govmomi/govc
 ```
 
 (make sure `$GOPATH/bin` is in your `PATH`)

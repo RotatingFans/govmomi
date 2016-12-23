@@ -9,8 +9,8 @@ Change _$USER_ below to your github username if they are not the same.
 
 ``` shell
 export GOPATH=$HOME/govmomi
-go get github.com/vmware/govmomi
-cd $GOPATH/src/github.com/vmware/govmomi
+go get github.com/RotatingFans/govmomi
+cd $GOPATH/src/github.com/RotatingFans/govmomi
 git config push.default nothing # anything to avoid pushing to vmware/govmomi by default
 git remote rename origin vmware
 git remote add $USER git@github.com:$USER/govmomi.git

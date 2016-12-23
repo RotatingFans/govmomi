@@ -60,11 +60,11 @@ import (
 	"crypto/tls"
 	"net/url"
 
-	"github.com/vmware/govmomi/property"
-	"github.com/vmware/govmomi/session"
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/soap"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/RotatingFans/govmomi/property"
+	"github.com/RotatingFans/govmomi/session"
+	"github.com/RotatingFans/govmomi/vim25"
+	"github.com/RotatingFans/govmomi/vim25/soap"
+	"github.com/RotatingFans/govmomi/vim25/types"
 	"golang.org/x/net/context"
 )
 

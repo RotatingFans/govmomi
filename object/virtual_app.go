@@ -19,9 +19,9 @@ package object
 import (
 	"golang.org/x/net/context"
 
-	"github.com/vmware/govmomi/vim25"
-	"github.com/vmware/govmomi/vim25/methods"
-	"github.com/vmware/govmomi/vim25/types"
+	"github.com/RotatingFans/govmomi/vim25"
+	"github.com/RotatingFans/govmomi/vim25/methods"
+	"github.com/RotatingFans/govmomi/vim25/types"
 )
 
 type VirtualApp struct {

@@ -7,7 +7,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/vmware/govmomi/object"
+	"github.com/RotatingFans/govmomi/object"
 )
 
 type StoragePodFlag struct {

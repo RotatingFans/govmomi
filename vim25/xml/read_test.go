@@ -713,7 +713,7 @@ func TestUnmarshalIntoInterface(t *testing.T) {
 	}
 }
 
-// https://github.com/vmware/govmomi/issues/246
+// https://github.com/RotatingFans/govmomi/issues/246
 func TestNegativeValuesUnsignedFields(t *testing.T) {
 	type T struct {
 		I   string

@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/vmware/govmomi/object"
+	"github.com/RotatingFans/govmomi/object"
 	"golang.org/x/net/context"
 )
 

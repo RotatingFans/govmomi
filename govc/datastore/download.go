@@ -22,9 +22,9 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/vmware/govmomi/govc/cli"
-	"github.com/vmware/govmomi/govc/flags"
-	"github.com/vmware/govmomi/vim25/soap"
+	"github.com/RotatingFans/govmomi/govc/cli"
+	"github.com/RotatingFans/govmomi/govc/flags"
+	"github.com/RotatingFans/govmomi/vim25/soap"
 )
 
 type download struct {

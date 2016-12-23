@@ -21,7 +21,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/vmware/govmomi/vim25/soap"
+	"github.com/RotatingFans/govmomi/vim25/soap"
 	"golang.org/x/net/context"
 )
 

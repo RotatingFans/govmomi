@@ -19,7 +19,7 @@ package types
 import (
 	"testing"
 
-	"github.com/vmware/govmomi/vim25/xml"
+	"github.com/RotatingFans/govmomi/vim25/xml"
 )
 
 func TestVirtualMachineConfigSpec(t *testing.T) {

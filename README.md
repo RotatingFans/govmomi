@@ -24,7 +24,7 @@ It primarily provides convenience functions for working with the vSphere API.
 See [godoc.org][godoc] for documentation.
 
 [apiref]:http://pubs.vmware.com/vsphere-60/index.jsp#com.vmware.wssdk.apiref.doc/right-pane.html
-[godoc]:http://godoc.org/github.com/vmware/govmomi
+[godoc]:http://godoc.org/github.com/RotatingFans/govmomi
 [drone]:https://drone.io
 [dronesrc]:https://github.com/drone/drone
 [dronecli]:http://readme.drone.io/devs/cli/

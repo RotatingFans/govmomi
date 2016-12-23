@@ -24,9 +24,9 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/vmware/govmomi/govc/cli"
-	"github.com/vmware/govmomi/govc/flags"
-	"github.com/vmware/govmomi/object"
+	"github.com/RotatingFans/govmomi/govc/cli"
+	"github.com/RotatingFans/govmomi/govc/flags"
+	"github.com/RotatingFans/govmomi/object"
 )
 
 type ls struct {

@@ -21,7 +21,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/vmware/govmomi/govc/cli"
+	"github.com/RotatingFans/govmomi/govc/cli"
 )
 
 type update struct {

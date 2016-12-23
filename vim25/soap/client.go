@@ -32,9 +32,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/vmware/govmomi/vim25/progress"
-	"github.com/vmware/govmomi/vim25/types"
-	"github.com/vmware/govmomi/vim25/xml"
+	"github.com/RotatingFans/govmomi/vim25/progress"
+	"github.com/RotatingFans/govmomi/vim25/types"
+	"github.com/RotatingFans/govmomi/vim25/xml"
 	"golang.org/x/net/context"
 )
 
