@@ -31,7 +31,7 @@ import (
 	"regexp"
 	"strings"
 	"time"
-
+	"github.com/davecgh/go-spew/spew" 
 	"github.com/RotatingFans/govmomi/vim25/progress"
 	"github.com/RotatingFans/govmomi/vim25/types"
 	"github.com/RotatingFans/govmomi/vim25/xml"
@@ -299,7 +299,7 @@ func (c *Client) RoundTrip(ctx context.Context, reqBody, resBody HasFault) error
 	default:
 		return errors.New(res.Status)
 	}
-	fmt.Println(res.Body)
+	spew.Dump(res.Body)
 	dec := xml.NewDecoder(res.Body)
 	dec.TypeFunc = types.TypeFunc()
 	err = dec.Decode(&resEnv)
